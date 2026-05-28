@@ -16,7 +16,19 @@ tile_set = ExtResource("1_iuonh")
 [node name="Player" parent="." unique_id=390898776 instance=ExtResource("1_hyk8p")]
 
 [node name="BasicEnemy" parent="." unique_id=434079067 instance=ExtResource("4_l3cfh")]
-position = Vector2(13, 62)
+position = Vector2(137, 251)
 
 [node name="BasicEnemy2" parent="." unique_id=89187997 instance=ExtResource("4_l3cfh")]
-position = Vector2(755, 413)
+position = Vector2(558, 322)
+
+[node name="BasicEnemy3" parent="." unique_id=1825322021 instance=ExtResource("4_l3cfh")]
+position = Vector2(278, 309)
+
+[node name="BasicEnemy4" parent="." unique_id=184231583 instance=ExtResource("4_l3cfh")]
+position = Vector2(90, 377)
+
+[node name="BasicEnemy5" parent="." unique_id=1329054506 instance=ExtResource("4_l3cfh")]
+position = Vector2(258, 170)
+
+[node name="BasicEnemy6" parent="." unique_id=460201464 instance=ExtResource("4_l3cfh")]
+position = Vector2(189, 344)
