@@ -7,7 +7,6 @@
 [ext_resource type="PackedScene" uid="uid://b1xxwi00ln7me" path="res://scenes/manager/enemy_manager.tscn" id="1_l3cfh"]
 [ext_resource type="PackedScene" uid="uid://b8k2j5jrnb23e" path="res://scenes/manager/arena_time_manager.tscn" id="2_ow5a4"]
 [ext_resource type="PackedScene" uid="uid://cmd771i5kd4w1" path="res://scenes/manager/experience_manager.tscn" id="4_yyfjg"]
-[ext_resource type="PackedScene" uid="uid://cfbkx7gs13lp1" path="res://scenes/game_object/experience_vial/experience_vial.tscn" id="7_hujxm"]
 
 [node name="Main" type="Node" unique_id=715923107]
 
@@ -28,6 +27,3 @@ tile_set = ExtResource("1_iuonh")
 
 [node name="Player" parent="." unique_id=390898776 instance=ExtResource("1_hyk8p")]
 position = Vector2(502, 290)
-
-[node name="ExperienceVial" parent="." unique_id=538601863 instance=ExtResource("7_hujxm")]
-position = Vector2(361, 300)
